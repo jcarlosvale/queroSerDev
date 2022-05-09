@@ -26,8 +26,8 @@ public class HelloWorldController {
 
     @GetMapping(path = "/hello-world/{nome}/{idade}")
     public HelloWorldDTO helloWorld(@PathVariable(name = "nome") String nome,
-                                    @PathVariable(name = "idade", required = false) int idade) {
-        //TODO: required not working
+                                    @PathVariable(name = "idade") int idade) {
+
 
         var helloWorld = new HelloWorldDTO();
         helloWorld.setUsername(nome);
