@@ -10,9 +10,9 @@ import java.time.LocalDateTime;
 @Data
 public class HelloWorldDTO {
 
-    private String mensagem;
+    //private String mensagem;
     private String username;
-    private LocalDateTime data;
-    private String corPreferida;
+    //private LocalDateTime data;
+    //private String corPreferida;
     private Integer idade;
 }
